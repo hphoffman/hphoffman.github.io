@@ -17,11 +17,12 @@ const HistorySection: React.FC = () => {
             department such as being a social media assistant, as well as a
             social ambassador. After being a stellar student at Southeast
             Missouri State University, Hoffman graduated with the honors of
-            Summa Cum Laude, obtaining a Marketing Degree. She then went
-            straight into the field, getting a job with Convergence Companies as
-            a Marketing and Communications Specalist where she works to grow
-            their marketing department from the ground up, implementing new
-            ideas and supporting the large team however she can.
+            Summa Cum Laude, obtaining a Marketing Management Degree. She then
+            went straight into the field, getting a job with Convergence
+            Companies as a Marketing and Communications Specalist where she
+            works to grow their marketing department from the ground up,
+            implementing new ideas and supporting the large team however she
+            can.
           </p>
         </div>
       </div>
@@ -47,7 +48,8 @@ const HistorySection: React.FC = () => {
             <li>
               <div className="timeline-date">2023</div>
               <div className="timeline-event">
-                Graduated Southeast Missouri State University
+                Graduated Southeast Missouri State University - BSBA: Marketing
+                Management, Horticulture Minor
               </div>
             </li>
 

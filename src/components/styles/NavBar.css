@@ -34,17 +34,8 @@
     color: #0056b3; /* Darker blue on hover */
   }
   
-  /* Dropdown Styles */
-  .dropdown-menu {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .dropdown-item {
-    color: #fff;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #0056b3;
-  }
-  
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

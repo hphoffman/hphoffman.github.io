@@ -1,15 +1,24 @@
 /* BlogPage.css */
+
 .blog-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
   }
-  .title {
+  
+  .text {
+    font-size: 100px;
+    font-weight:bold;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    flex: 1; /* Allow the text to grow and shrink based on available space */
+    text-align: center;
+    line-height: .75;
+    padding: 20px;background: linear-gradient(to right, #34c7f3, #007bff); /* Gradient for the heading */
+    -webkit-background-clip: text;
+    color: transparent;
+  
   }
 
   .blog-cards .card {
@@ -71,3 +80,11 @@
     background-color: #0056b3;
   }
   
+.main-section{
+  height: 80vh;
+}
+
+.blog-post-content {
+  max-height: 60vh; /* Adjust the height based on your preference */
+  overflow-y: auto;
+}

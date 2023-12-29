@@ -18,6 +18,10 @@ const SkillsSection: React.FC = () => {
               <li className="list-group-item">Sprout</li>
               <li className="list-group-item">WebFlow</li>
               <li className="list-group-item">SEO</li>
+              <li className="list-group-item">
+                Operation of various social media accounts
+              </li>
+              <li className="list-group-item">Eclincher</li>
             </ul>
           </div>
         </div>
@@ -30,7 +34,8 @@ const SkillsSection: React.FC = () => {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">Canva</li>
               <li className="list-group-item">Photoshop</li>
-              <li className="list-group-item">SOMETHING ELSE</li>
+              <li className="list-group-item">Illustrator</li>
+              <li className="list-group-item">Image Relay</li>
             </ul>
           </div>
         </div>
@@ -44,6 +49,10 @@ const SkillsSection: React.FC = () => {
               <li className="list-group-item">Microsoft Office</li>
               <li className="list-group-item">Slack</li>
               <li className="list-group-item">Responsive Design</li>
+              <li className="list-group-item">Leadership</li>
+              <li className="list-group-item">Fast Learner</li>
+              <li className="list-group-item">Advanced Writing</li>
+              <li className="list-group-item">Teamwork</li>
             </ul>
           </div>
         </div>
