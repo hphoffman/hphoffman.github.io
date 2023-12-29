@@ -10,7 +10,7 @@ interface BlogPostProps {
 const BlogPost: React.FC<BlogPostProps> = ({ title, content, thumb }) => {
   return (
     <div>
-      <img src={thumb}></img>
+      <img src={thumb} alt=""></img>
       <h2>{title}</h2>
       <p>{content}</p>
     </div>
