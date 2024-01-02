@@ -1,7 +1,7 @@
 // HeroSection.tsx
-import React, { useState, useEffect } from 'react';
-import Confetti from 'react-confetti';
-import './styles/HeroSection.css';
+import React, { useState, useEffect } from "react";
+import Confetti from "react-confetti";
+import "./styles/HeroSection.css";
 
 interface HeroSectionProps {
   name: string;
@@ -9,7 +9,11 @@ interface HeroSectionProps {
   imageUrl: string;
 }
 
-const HeroSection: React.FC<HeroSectionProps> = ({ name, jobTitle, imageUrl }) => {
+const HeroSection: React.FC<HeroSectionProps> = ({
+  name,
+  jobTitle,
+  imageUrl,
+}) => {
   const [isConfettiActive, setConfettiActive] = useState(false);
   const [confettiOpacity, setConfettiOpacity] = useState(1);
 
@@ -42,7 +46,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ name, jobTitle, imageUrl }) =
     <section className="hero-section">
       <div className="container hero-content">
         <div className="hero-text">
-          <h1 className="hero-heading">{name}</h1>
+          <h1 className="hero-heading">
+            <b>{name}</b>
+          </h1>
           <h1 className="lead job">{jobTitle}</h1>
           <button className="btn btn-primary btn-lg" onClick={shootConfetti}>
             Shoot Confetti
@@ -71,7 +77,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ name, jobTitle, imageUrl }) =
               "#FFA500", // Orange
               "#FFC0CB", // Pink
               "#A52A2A", // Brown
-              "#808080"  // Grey
+              "#808080", // Grey
             ]}
             gravity={0.2}
             wind={0.1}

@@ -1,9 +1,4 @@
 TODO 
 
 short:
-- add semo under history
 - maybe change photo?
-- PERKS picture 
-
-long:
-- add blog

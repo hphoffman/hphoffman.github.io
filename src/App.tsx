@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import HistorySection from "./components/HistorySection";
 import image from "./heather.jpg";
 import BlogPage from "./components/BlogPage";
-//import ContactPage from "./components/ContactPage";
+import ContactPage from "./components/ContactPage";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -27,8 +27,12 @@ const App: React.FC = () => {
             <SkillsSection />
           </div>
         );
-      //case "contact":
-      //  return <ContactPage />;
+      case "contact":
+        return (
+          <div className="page">
+            <ContactPage />
+          </div>
+        );
       case "blog":
         return (
           <div className="page">
