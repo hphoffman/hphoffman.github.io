@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import BlogPost from "./BlogCard";
 import "./styles/BlogPage.css";
+import thumb1 from "../handz.jpg";
 
 interface BlogPostProps {
   id: string;
@@ -21,7 +22,7 @@ const BlogPage: React.FC = () => {
       id: "1",
       title: "Happy Birthday Heather!",
       shorthand: "Click inside to read!",
-      thumbnail: "../../heather.jpg",
+      thumbnail: thumb1,
       content:
         "Happy Birthday darling! I've had this idea for a while, to make you a website full of everything that is amazing about you! I've been working on learning my web design for a while now, and while I'm still learning everyday I want this to be a project that I can work on continously for you. Anytime you make a new achivement, we can celebrate it together and add it to the page. And we can make blog posts together for everyone to see, like this one here! I love getting any chance I can to celebrate you, and celebrate with you. I was thinking for a while about this, I wanted to find a way to do something cool for you that was really specific to me, so you could always think of me when you see it. But of course I wanted to add some fun stuff along the way! Confetti button was a for sure must, and I think that the blogs will be a fun thing too! Now this site will only be expanding more and more, and if you have any other ideas on things for me to add you can always let me know and I am more than happy to work on it!",
       content2:
@@ -52,11 +53,7 @@ const BlogPage: React.FC = () => {
             onClick={() => handleThumbnailClick(post.id)}
           >
             <div className="card-body">
-              <img
-                src={post.thumbnail}
-                alt=""
-                className="thumbnail-image"
-              ></img>
+              <img src={post.thumbnail} alt="" className="thumb"></img>
               <h3 className="card-title">{post.title}</h3>
               <p className="card-text">{post.shorthand}</p>
             </div>

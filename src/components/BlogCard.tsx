@@ -1,4 +1,4 @@
-// BlogPost.tsx
+// BlogCard.tsx
 import React from "react";
 
 interface BlogCardProps {
